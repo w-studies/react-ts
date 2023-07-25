@@ -1,4 +1,4 @@
-import Spinn from "react-bootstrap/Spinner";
+import Spinn from 'react-bootstrap/Spinner'
 
 export const Spinner = ({ className, ...props }: any) => {
   return (
@@ -7,5 +7,5 @@ export const Spinner = ({ className, ...props }: any) => {
         <span className="visually-hidden">Loading...</span>
       </Spinn>
     </div>
-  );
-};
+  )
+}

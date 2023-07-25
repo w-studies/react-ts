@@ -1,7 +1,8 @@
-import { Suspense } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Spinner } from './components';
-import { AdminLayout } from './views/layouts/AdminLayout';
+import { Suspense } from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { AdminLayout } from './views/layouts/AdminLayout'
+import DefaultLayout from './views/layouts/DefaultLayout'
+import { Spinner } from './components'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         </Routes>
       </Suspense>
     </BrowserRouter>
-  );
+  )
 }
 
-export default App;
+export default App

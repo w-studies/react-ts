@@ -1,3 +1,3 @@
 export const Logoff = () => {
-  return <h1>Logoff</h1>;
-};
+  return <h1>Logoff</h1>
+}

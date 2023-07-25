@@ -5,5 +5,5 @@ export const AdminLayout = () => {
       <main>MAIN</main>
       <footer>FOOTER</footer>
     </div>
-  );
-};
+  )
+}

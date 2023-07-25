@@ -1,5 +1,7 @@
+import { routes } from '@/routes/public'
+
 const DefaultLayout = () => {
-  return <h1 >Default Layout</h1>
+  return <ViewLoader routes={routes} />
 }
 
 export default DefaultLayout

@@ -1,6 +1,17 @@
 module.exports = {
   root: true,
   env: { browser: true, es2020: true },
+  settings: {
+    react: {
+      version: 'detect'
+    },
+    'import/resolver': {
+      node: {
+        paths: ['src'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
+      }
+    }
+  },
   extends: [
     'plugin:@dword-design/import-alias/recommended',
     'eslint:recommended',
