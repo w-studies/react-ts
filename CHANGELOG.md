@@ -10,6 +10,24 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 -
 
+## [0.0.1] - 2023-07-26
+
+### Added
+
+- created browser router (it will be refactored later)
+
+### Fixed
+
+-
+
+### Changed
+
+- update some dependencies
+
+### Removed
+
+-
+
 ## [0.0.1] - 2023-07-25
 
 ### Added

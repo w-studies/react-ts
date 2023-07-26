@@ -1,20 +1,9 @@
-import { Suspense } from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { AdminLayout } from './views/layouts/AdminLayout'
-import DefaultLayout from './views/layouts/DefaultLayout'
-import { Spinner } from './components'
+import { AppRoutes } from './routes'
+import './scss/bs.scss'
+import './scss/styles.scss'
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Suspense fallback={<Spinner type="loading" color="brand-secondary" />}>
-        <Routes>
-          <Route path="/admin/*" element={<AdminLayout />} />
-          <Route path="*" element={<DefaultLayout />} />
-        </Routes>
-      </Suspense>
-    </BrowserRouter>
-  )
+  return <AppRoutes />
 }
 
 export default App

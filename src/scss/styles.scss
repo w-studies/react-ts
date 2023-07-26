@@ -1,0 +1,25 @@
+body,
+html,
+#root {
+  height: 100%;
+  min-height: 100%;
+}
+
+.app {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+
+  >header,
+  >footer {
+    display: flex;
+    height: 60px;
+    border: thin solid blue;
+  }
+
+  main {
+    flex-direction: row;
+    flex-grow: 1;
+    border: thin solid red
+  }
+}
